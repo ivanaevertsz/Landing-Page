@@ -1,0 +1,89 @@
+
+
+
+.navbar-brand{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar-brand:hover {
+  color: #6d0000;
+}
+
+.navbar2 {
+    margin-left: 72%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    
+}
+
+.navbar2 a{
+    color: white;
+}
+
+.navbar2 li a:hover {
+  color: #6d0000;
+}
+
+
+.jumbotron{
+   background-image: url("../images/bg.png");
+    margin-top: -7%;
+    height: 45em;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.jumbotron p{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    margin-left: 30em;
+    margin-top: 10em;
+   
+}
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 400;
+}
+
+h1{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10em;
+}
+
+.btn-lg {
+    background-color: white;
+    border-color: #6d0000;
+    text-decoration: none;
+    color: black;
+    margin-left: 34em;
+   
+
+}
+
+.btn-lg:hover {
+    background-color: #6d0000;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+footer{
+    font-size: 14px;
+    text-align: center;
+    border-top: 0.2px solid gray;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
